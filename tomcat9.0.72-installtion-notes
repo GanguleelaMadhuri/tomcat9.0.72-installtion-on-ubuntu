@@ -64,4 +64,8 @@ WantedBy=multi-user.target
   126  sudo systemctl daemon-reload
   127  sudo systemctl start tomcat
   128  sudo systemctl status tomcat
-  
+  sudo mkdir systemd
+  118  cd systemd
+  119*
+  120  sudo mkdir system
+
